@@ -1,0 +1,27 @@
+# dependencies
+.polybit
+/node_modules
+
+# IDEs and editors
+/.idea
+
+#config
+/config
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage/*
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/typings
+.env
+
+# e2e
+/e2e/*.js
+/e2e/*.map
+
+#System Files
+.DS_Store
+Thumbs.db
