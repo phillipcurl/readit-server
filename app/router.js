@@ -4,7 +4,7 @@
 * @Email:  phillipcurl@gmail.com
 * @Project: Libations-Portal
 * @Last modified by:   PC
-* @Last modified time: 2016-06-16T19:22:42-04:00
+* @Last modified time: 2016-06-18T12:40:37-04:00
 */
 
 module.exports = (function() {
@@ -40,6 +40,9 @@ module.exports = (function() {
 
   /* generator: begin imports */
 
+  const V1AccessTokensController = Nodal.require('app/controllers/v1/access_tokens_controller.js');
+  const V1UsersController = Nodal.require('app/controllers/v1/users_controller.js');
+  const V1SubredditsController = Nodal.require('app/controllers/v1/subreddits_controller.js');
 
   /* generator: end imports */
 
@@ -47,6 +50,9 @@ module.exports = (function() {
 
   /* generator: begin routes */
 
+  router.route('/v1/access_tokens/{id}').use(V1AccessTokensController);
+  router.route('/v1/users/{id}').use(V1UsersController);
+  router.route('/v1/subreddits/{id}').use(V1SubredditsController);
 
   /* generator: end routes */
 
