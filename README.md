@@ -4,7 +4,7 @@
 @Email:  phillipcurl@gmail.com
 @Project: Libations-Portal
 @Last modified by:   PC
-@Last modified time: 2016-06-18T12:54:11-04:00
+@Last modified time: 2016-06-18T12:54:54-04:00
 -->
 
 # The server for Readit
@@ -13,7 +13,7 @@
 
 ```sh
 npm i nodal -g
-cd readdit-server
+cd readit-server
 npm install
 nodal s
 ```
